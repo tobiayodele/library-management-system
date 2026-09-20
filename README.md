@@ -24,11 +24,7 @@ A system for managing a library's books, members, and lending records.
 ### Prerequisites
 
 - Python 3.11 or later.
-- SQLlite3
-- Bycrypt
-- Tkinter
-- Datetime Python Module
-- Regular Expression Python Module
+- Bcrypt
 - Git
 
 ### Installation
@@ -43,30 +39,26 @@ A system for managing a library's books, members, and lending records.
 2. Install dependencies:
 
    ```bash
-   <e.g. npm install / pip install -r requirements.txt / mvn install>
+   pip install bcrypt
+
+   ```
+> On some Linux distros tkinter is packaged separately. If you get ```No module named 'tkinter'``` install it with:
+    ```bash
+   sudo apt install python3-tk
+
    ```
 
-3. Set up the database:
+5. Run the application:
 
    ```bash
-   <e.g. run schema.sql / python manage.py migrate>
-   ```
+   Windows:
+   python library_manager.py
 
-4. Configure environment variables (if used). Copy the example file and edit it:
-
-   ```bash
-   cp .env.example .env
-   ```
-
-5. Start the application:
-
-   ```bash
-   <e.g. npm start / python main.py / mvn spring-boot:run>
+   Linux/macOS:
+   python3 library_manager.py
    ```
 
 ## Usage
-
-Describe the main workflows here, for example:
 
 1. Log in as an admin or librarian.
 2. Add books to the catalogue.
@@ -80,25 +72,19 @@ Screenshots or a short GIF of the app work well in this section.
 
 ```
 library-management-system/
-├── <src/>            # Application source code
-├── <database/>       # Schema and seed data
-├── <tests/>          # Tests
+├── Library Management System            # Application source code
+│   ├── books2.db
+│   ├── members2.db
+│   └── library_manager.py
+├── Test Videos                          # Visual Test Videos
+├── LMS_report.docx                      # Report of the whole project
+├── LMS_report.pdf 
 └── README.md
 ```
 
-## Contributing
-
-Contributions are welcome.
-
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature/your-feature`
-3. Commit your changes: `git commit -m "Add your feature"`
-4. Push to the branch: `git push origin feature/your-feature`
-5. Open a pull request
-
 ## License
 
-`<Choose a license, e.g. MIT, and add a LICENSE file to the repo.>`
+[MIT](https://choosealicense.com/licenses/mit/)
 
 ## Author
 
