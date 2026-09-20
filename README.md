@@ -66,8 +66,6 @@ Achieved **69/70 mark** and serves a library with **1000+ members** .
 4. Issue a book to a member and record the due date.
 5. Mark the book as returned when it comes back.
 
-Screenshots or a short GIF of the app work well in this section.
-
 ## Project Structure
 
 ```
