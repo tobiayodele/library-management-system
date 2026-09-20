@@ -23,8 +23,12 @@ A system for managing a library's books, members, and lending records.
 
 ### Prerequisites
 
-- `<Runtime and version, e.g. Node.js 20+ / Python 3.11+ / JDK 17>`
-- `<Database, e.g. MySQL 8>`
+- Python 3.11 or later.
+- SQLlite3
+- Bycrypt
+- Tkinter
+- Datetime Python Module
+- Regular Expression Python Module
 - Git
 
 ### Installation
