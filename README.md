@@ -2,12 +2,13 @@
 
 A system for managing a library's books, members, and lending records.
 
+Achieved **69/70 mark** and serves a library with **1000+ members** . 
+
 ## Table of Contents
 - [Features](#features)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
 - [Project Structure](#project-structure)
-- [Contributing](#contributing)
 - [License](#license)
 - [Author](#author)
 
@@ -43,18 +44,17 @@ A system for managing a library's books, members, and lending records.
 
    ```
 > On some Linux distros tkinter is packaged separately. If you get ```No module named 'tkinter'``` install it with:
-    ```bash
-   sudo apt install python3-tk
-
+   ```bash
+      sudo apt install python3-tk
    ```
 
-5. Run the application:
-
-   ```bash
+4. Run the application:
    Windows:
+   ```bash
    python library_manager.py
-
+   ```
    Linux/macOS:
+   ```
    python3 library_manager.py
    ```
 
